@@ -25,22 +25,6 @@ python '.tools/scripts/compose_pyproject.py'
 pip install --no-deps --editable '.'
 pip install --upgrade --requirement 'requirements.txt'
 
-# Install all types of pre-commit hooks
-$h = '--hook-type'
-$AllHookTypes = @(
-    $h, 'commit-msg'
-    $h, 'post-checkout'
-    $h, 'post-commit'
-    $h, 'post-merge'
-    $h, 'post-rewrite'
-    $h, 'pre-commit'
-    $h, 'pre-merge-commit'
-    $h, 'pre-push'
-    $h, 'pre-push'
-    $h, 'prepare-commit-msg'
-)
-pre-commit install --install-hooks @AllHookTypes
-
 # Ensure type stubs are synchronized
 git submodule update --init --merge typings
 

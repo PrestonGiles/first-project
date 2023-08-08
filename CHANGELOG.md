@@ -13,5 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - No features yet
 
-[Unreleased]: https://github.com/PrestonGiles/first-project/compare/0.0.0...HEAD
-[0.0.0]: https://github.com/PrestonGiles/first-project/releases/tag/0.0.0
+[Unreleased]: https://github.com/PrestonGiles/first_project/compare/0.0.0...HEAD
+[0.0.0]: https://github.com/PrestonGiles/first_project/releases/tag/0.0.0

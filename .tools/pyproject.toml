@@ -9,7 +9,7 @@ requires = ["flit_core >=3.3,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "first-project"
+name = "first_project"
 version = "0.0.0"
 description = "Learining python things"
 readme = "README.md"
