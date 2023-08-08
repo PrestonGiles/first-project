@@ -1,0 +1,14 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 42d3de7
+_src_path: gh:blakeNaccarato/copier-python
+actions_runner: ubuntu-latest
+active: true
+github_repo_name: first-project
+project_description: Learining python things
+project_email: sauvageg@unlv.nevada.edu
+project_name: first-project
+project_owner_github_username: PrestonGiles
+project_owner_name: Preston Giles
+project_version: 0.0.0
+python_version: '3.11'
+year_of_project_creation: 2023
